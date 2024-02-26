@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sage: rgba(181, 201, 127, 1);
+  --taupe: rgba(63, 57, 53, 1);
+  --dun: rgba(230, 204, 178, 1);
+  --seasalt: rgba(247, 247, 249, 1);
+  --isabelline: rgba(242, 236, 231);
+}
+
+main{
+  min-height: 100vh;
+  color: var(--taupe);
+  background-color: var(--seasalt);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: var(--sage);
+}

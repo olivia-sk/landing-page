@@ -1,0 +1,59 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--isabelline);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 72px;
+  }
+  
+  .logoLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-weight: 700;
+    color: var(--taupe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .linkGroup {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .link, .activeLink {
+    text-decoration: none;
+    color: var(--taupe);
+    font-weight: 500; 
+  }
+  
+  .activeLink {
+    color: var(--sage); 
+  }
+  
+  .footerText {
+    border-top: 1px solid var(--sage); 
+    padding-top: 20px;
+    margin-top: 20px; 
+    color: var(--taupe);
+  }
+  
