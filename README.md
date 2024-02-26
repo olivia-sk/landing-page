@@ -4,7 +4,7 @@
 - Olivia
 
 ## Description
-- Describe your project in a few sentences.
+- MoodBrew's landing page is where tea enthusiasts can find and purchase blends for every mood, set within a simple, interactive design for seamless shopping.
 
 ## Dependencies/Packages Installed
 - npm install @splinetool/react-spline
