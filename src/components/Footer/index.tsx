@@ -28,7 +28,9 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className={`${classes.border} ${classes.footerText}`}>© MoodBrew</p>
+      <p className={`${classes.border} ${classes.footerText}`}>© 2024 Olivia Fong
+
+</p>
     </footer>
   );
 }
